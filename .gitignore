@@ -166,3 +166,5 @@ cython_debug/
 
 # ignoring the outputs 
 /mask2patch*
+/patch2msk*  
+/output

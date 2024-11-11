@@ -72,4 +72,4 @@ p2p_model = models.build_pix2pix(gen, dis)
 
 
 # train 
-models.train_pix2pix(gen, dis, p2p_model, src_mask, tar_patch, epochs=200, summary_interval=10, name='mask2patch')
+models.train_pix2pix(gen, dis, p2p_model, src_mask, tar_patch, epochs=1000, summary_interval=10, name='mask2patch')
